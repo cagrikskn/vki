@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class ilk {
+    public static void main(String[] args) {
+
+      Scanner input= new Scanner(System.in);
+      double kilo, boy;
+        System.out.println("kilonuzu girin:");
+        kilo= input.nextDouble();
+        System.out.println("boyunuzu girin:");
+        boy= input.nextDouble();
+        double vki;
+        vki= kilo/(boy*boy);
+        System.out.println("vki:" +vki);
